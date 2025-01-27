@@ -1,6 +1,6 @@
 [English Docs](./README.md) | [中文文档](./README-zh.md)
 
-# Awesome OpenHarmony/HarmonyOS Library
+# Awesome Harmony Library[![Awesome](https://awesome.re/badge.svg)](https://github.com/Madixin/awesome-harmony-library)
 A curated list of awesome library for OpenHarmony/HarmonyOS.The ranking is not in order.
 Your star would make me keep updated. Thank you.
 
@@ -43,6 +43,7 @@ Most of these libraries have been published in [OpenHarmony Third-Party Library 
 - [@ohos/lottie](https://gitee.com/openharmony-tpc/lottieArkTS) - An open-source library that parses animations in the Lottie format and renders them natively. Lottie animations are typically created using Adobe After Effects and exported as JSON files via the Bodymovin plugin.
 - [@tencent/libpag](https://github.com/Tencent/libpag) - A real-time rendering library for PAG (Portable Animated Graphics) files that renders both vector-based and raster-based animations across most platforms, such as iOS, Android, OpenHarmony, macOS, Windows, Linux, and Web.
 - [@ohos/gif-drawable](https://gitee.com/openharmony-sig/ohos_gif-drawable) - A library for rendering gif.Support control,reset,set speed,listen callback, set backgroud,set scale type and so on.
+- [@ohos/apng](https://gitee.com/openharmony-sig/ohos_apng) - Display and Control APNG Animations.
 #### UI
 - [@ohos/pulltorefresh](https://gitee.com/openharmony-sig/ohos_pull_to_refresh) - PullToRefresh is an OpenHarmony UI component which allows users to pull down on a list or a page to trigger a refresh action and pull up to trigger a load action. You can set built-in animation properties, customize animations, and use lazyForEarch data as the data source.
 - [@abner/refresh](https://github.com/AbnerMing888/HarmonyOsRefresh) - It's a simple and efficient pull-to-refresh and drag-down-to-refresh component that supports lists, grids, and waterfall flows. It allows for refreshing various arbitrary components and features side swipe deletion, sticky headers, and swipe-down-to-access-second-level-menu functionalities.

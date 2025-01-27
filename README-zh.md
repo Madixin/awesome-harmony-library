@@ -1,6 +1,6 @@
 [English Docs](./README.md) | [中文文档](./README-zh.md)
 
-# 鸿蒙三方库汇总
+# Awesome鸿蒙三方库[![Awesome](https://awesome.re/badge.svg)](https://github.com/Madixin/awesome-harmony-library)
 持续推荐的鸿蒙三方库，方便开发者学习和使用，排名不分先后。请帮忙Star给与支持 \^_\^。
 
 # 如何使用
@@ -46,6 +46,8 @@
 - [@ohos/lottie](https://gitee.com/openharmony-tpc/lottieArkTS) - 一个解析Lottie格式的动画，并以原生方式进行渲染的开源库。Lottie动画通常使用Adobe After Effects制作，并通过Bodymovin插件导出为JSON格式。
 - [@tencent/libpag](https://github.com/Tencent/libpag) - 一个基于PAG（可移植动画图形）文件的实时渲染库，它可以在大多数平台（如 iOS、安卓、鸿蒙、macOS、Windows、Linux 和 Web）上渲染基于矢量和基于位图的动画。
 - [@ohos/gif-drawable](https://gitee.com/openharmony-sig/ohos_gif-drawable) -Gif播放库，支持控制，重置，调整播放速率，监听回调，设置背景色，设置缩放类型等功能。
+- [@ohos/apng](https://gitee.com/openharmony-sig/ohos_apng) - 显示和控制apng动画。
+
 #### UI
 - [@ohos/pulltorefresh](https://gitee.com/openharmony-sig/ohos_pull_to_refresh) - PullToRefresh是一款OpenHarmony环境下可用的下拉刷新、上拉加载组件。 支持设置内置动画的各种属性，支持设置自定义动画，支持lazyForEarch的数据作为数据源。
 - [@abner/refresh](https://github.com/AbnerMing888/HarmonyOsRefresh) - 一款简单，高效的上拉下拉刷新组件，支持列表、网格、瀑布流、支持各种任意组件刷新，支持侧滑删除、条目吸顶，下滑二楼等功能。
