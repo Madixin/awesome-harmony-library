@@ -64,8 +64,10 @@
 - [@ohos/ijkplayer](https://gitcode.com/openharmony-sig/ohos_ijkplayer) - 基于[bilibili/ijkplayer](https://github.com/bilibili/ijkplayer)适配鸿蒙操作系统的视频播放器。
 - [@ohos/video-cache](https://gitcode.com/openharmony-tpc/openharmony_tpc_samples/tree/master/OhosVideoCache) - 一个支持边播放边缓存的库，只需要将音视频的url传递给OhosVideoCache处理之后再设置给播放器，OhosVideoCache就可以一边下载音视频数据并保存在本地，一遍读取本地缓存返回给播放器，使用者无需进行其他操作。
 - [@ohos/mp4parser](https://gitcode.com/openharmony-tpc/mp4parser) - 一个读取、写入操作音视频文件编辑的库。
+- [@rte-xhs/redplayer](https://github.com/RTE-Dev/REDPlayer) - 小红书自主研发的跨平台（支持安卓、iOS、HarmonyOS等平台）播放器。与业内其他参与者不同，REDPlayer具有结构简单、耦合低、功能边界清晰的特点。它提供了多种接入方式，技术人员可以根据需要灵活选择。他们可以快速集成SDK以供使用，或根据源代码定制开发。
 #### 数据存储
 - [@ohos/dataorm](https://gitcode.com/openharmony-sig/ohos_dataorm) -  dataORM 是一个轻量级 ORM（对象关系映射）库，用于简化本地数据库的操作。提供了高效的数据库访问性能和低内存消耗。dataORM 支持多线程操作、链式调用、备份、升级、缓存等特性等功能。
+- [rdbstore](https://github.com/bytedance/rdbStore) -  字节跳动提供的鸿蒙生态数据库组件，以 relationalStore 相关接口提供给开发者，rdbStore 以DTO对象形式来进行数据库操作，封装数据库创建和自动升级、数据库谓词构建、查询结果反序列化、品质调优等能力，实现简单高效地进行数据库操作。
 - [@tencent/mmkv](https://github.com/Tencent/mmkv) -  MMKV是基于mmap内存映射的key-value开源库，底层序列化/反序列化使用protobuf实现，性能高且稳定性强。可在Android/macOS/Windows/OpenHarmony等平台使用。
 #### 实用工具
 - [@yunkss/eftool](https://gitee.com/yunkss/ef-tool) - 借鉴Java的工具类Hutool，提供实用工具涵盖了字符串、数字、集合、JSON等一系列操作。
@@ -97,6 +99,7 @@
 - [@tencentmap/map](https://ohpm.openharmony.cn/#/cn/detail/@tencentmap%2Fmap) - 腾讯地图和定位SDK。
 #### 其它
 - [@ohos/aki](https://gitcode.com/openharmony-sig/aki) - 一款边界性编程体验友好的ArkTs FFI开发框架，针对OpenHarmony Native开发提供JS与C/C++跨语言访问场景解决方案。支持极简语法糖使用方式，一行代码完成JS与C/C++的无障碍跨语言互调，所见即所得。
+- [@bytedance/byte_global_viewpool](https://github.com/bytedance/bGlobalViewPool) - 字节跳动提供的全局复用池解决方案，通过跨端组件预创建能力、复用池自动补池子能力和OnIdle预创建等能力，解决了跨端组件开发中常见的问题，如页面滑动丢帧、主线程阻塞、长列表流畅度不佳等问题，特别适用于新闻列表和购物页面等频繁页面切换的场景。
 - [@coremail/mail_base](https://gitcode.com/openharmony-tpc/ohos_mail_base) - 邮件SDK：方便开发邮件客户端而开发。提供了标准邮件协议解析，MIME格式解析，MSG格式解析等邮件客户端相关的功能。
 - [@luvi/lv-markdown-in](https://gitee.com/luvi/lv-markdown-in) - Markdown解析预览库。
 - [@ohos/zxing](https://gitcode.com/openharmony-tpc/zxing) - 一个解析/生成一维码/二维码的库。
@@ -111,7 +114,3 @@ C/C++库多需要源码引入，这里只提供了在鸿蒙下交叉编译的方
 # 一起维护
 如果有更强大更好用的库，欢迎提issue给我。
 
-# 联系我
-- 微信公众号：还没做。。
-- B站：还没做。。
-- 小红书：还没做。。
